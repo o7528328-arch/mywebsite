@@ -1,7 +1,7 @@
 body{
     height: 100vh;
     display: grid;
-    background-color: rgb(219, 131, 244);
+    background-color: rgb(0, 0, 100);
 }
 
 .div_main {
@@ -35,4 +35,5 @@ body{
     border-radius: 20px;
     box-shadow: #3316a9 2px 2px 1px 0px;
     
+
 }
