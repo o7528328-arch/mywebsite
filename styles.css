@@ -1,42 +1,65 @@
-body{
-    height: 100vh;
-    display: grid;
-    background-color: rgb(100, 0, 255);
+
+
+.frame_page{
+  display: flex;
+  height: 97vh;
+  justify-content: center;
+  background-image: url(zevcb0355ht81.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.box {
+  width: 505px;
+  height: 580px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(187, 125, 229);
+  align-self: center;
+  gap: 0px;
+  align-content: flex;
+  border-radius: 10px;
 }
 
-.div_main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.screen{
+  margin-top: 17px;
+  background-color: rgb(174, 39, 179);
+  height: 140px;
+  width: 450px;
+  display: block;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  align-content:flex-start ;
 }
-.num{
-    display:  inline;
-    padding: 100px;
-    border-radius: 50px;
-    background-color: rgb(255, 255, 255);
-    height: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    color: #3316a9;
-    box-shadow: #3316a9 2px 9px 30px 0px;
-}
-.info{
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 60px;
-    background-color: rgb(176, 139, 225);
-    padding-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    color: #3316a9;
-    border-radius: 20px;
-    box-shadow: #3316a9 2px 2px 1px 0px;
-    
-
+.all_buttons{
+  height: 380px;
+  width: 432px;
+  margin-top: 10px;
+  background-color: rgb(225, 82, 156);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content:flex-start;
+  
 }
 
-
-
+.numbers{
+  height: 80px;
+  width: 100px;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family:Arial, Helvetica, sans-serif ;
+  background-color: rgb(228, 113, 186);
+  border-radius: 10px;
+  align-self: center;
+  border: 1px rgb(29, 22, 57) solid;
+}
+.screen_text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgb(241, 241, 241);
+}
