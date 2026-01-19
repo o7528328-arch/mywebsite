@@ -1,66 +1,60 @@
-
-
-.frame_page{
-  display: flex;
-  height: 97vh;
-  justify-content: center;
-  background-image: url(zevcb0355ht81.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
- 
-}
-.box {
-  width: 505px;
-  height: 580px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: rgb(186, 125, 229);
-  align-self: center;
-  gap: 0px;
-  align-content: flex;
-  border-radius: 10px;
-}
-
-.screen{
-  margin-top: 17px;
-  background-color: rgb(174, 39, 179);
-  height: 140px;
-  width: 450px;
-  display: block;
-  flex-wrap: wrap;
-  border-radius: 10px;
-  align-content:flex-start ;
-}
-.all_buttons{
-  height: 380px;
-  width: 432px;
-  margin-top: 10px;
-  background-color: rgb(225, 82, 156);
-  border-radius: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content:flex-start;
-  
-}
-
-.numbers{
-  height: 80px;
-  width: 100px;
-  margin: 4px;
+body{
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
-  font-family:Arial, Helvetica, sans-serif ;
-  background-color: rgb(228, 113, 186);
-  border-radius: 10px;
-  align-self: center;
-  border: 1px rgb(29, 22, 57) solid;
+  height: 100vh;
+  background-color: hsl(0, 0%, 87%);
 }
-.screen_text{
+#calculator{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
-  color: rgb(241, 241, 241);
+  background-color: rgb(48, 48, 48);
+  max-width: 235px;
+  border-radius: 10px;
+  overflow: hidden;
+  
 }
-
+#display{
+  width: 100%;
+  padding: 20px;
+  font-size: 1rem;
+  text-align: left;
+  border: none;
+  background-color: rgb(71, 71, 71);
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 500;
+}
+button{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: none ;
+  background-color: rgb(105, 105, 105);
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+#keys{
+  display: grid;
+  grid-template-columns: repeat(4,55px);
+  grid-template-rows: repeat(4,55px);
+  padding: 10px;
+}
+button:hover{
+  background-color: hsl(0, 0%, 39%);
+}
+button:active {
+  background-color: hsl(0, 0%, 41%);
+}
+.opp{
+  background-color: orange;
+}
+.opp:hover{
+  background-color: hsl(43, 97%, 59%);
+}
+.opp:active {
+  background-color: hsl(43, 91%, 75%);
+}

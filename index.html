@@ -1,42 +1,40 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
 
-     <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-    </head>
+<body>
+    
+    <div id="calculator">
+        <input id="display" readonly>
 
-    <body >
-        <div class="frame_page">
-            <div class="box" id="box1"> 
-
-                <div class="screen"><p class="screen_text">hello,world</p></div>
-                
-                <div class="all_buttons">   
-                    <button class="numbers" id="n1">1</button>
-                    <button class="numbers" id="n2">2</button>
-                    <button class="numbers" id="n3">3</button>
-                    <button class="numbers" id="n4">x</button>
-                    <button class="numbers" id="n5">4</button>
-                    <button class="numbers" id="n6">5</button>
-                    <button class="numbers" id="n7">6</button>
-                    <button class="numbers" id="n8">/</button>
-                    <button class="numbers" id="n9">7</button>                   
-                    <button class="numbers" id="n0">8</button>
-                    <button class="numbers" id="n.">9</button>
-                    <button class="numbers" id="n7">+</button>
-                    <button class="numbers" id="n8">=</button>
-                    <button class="numbers" id="n9">0</button>
-                    <button class="numbers" id="n0">.</button>
-                    <button class="numbers" id="n.">-</button>
-                       
-                </div>
-                 
-            </div>
-
-
+        <div id="keys">
+            <button onclick="putondisplay('+')"class="opp">+</button>
+            <button onclick="putondisplay('-')"class="opp">-</button>
+            <button onclick="putondisplay('x')"class="opp">x</button>
+            <button onclick="putondisplay('/')"class="opp">/</button>
+            <button onclick="putondisplay('1')">1</button>
+            <button onclick="putondisplay('2')">2</button>
+            <button onclick="putondisplay('3')">3</button>
+            <button onclick="putondisplay('4')">4</button>
+            <button onclick="putondisplay('5')">5</button>
+            <button onclick="putondisplay('6')">6</button>
+            <button onclick="putondisplay('7')">7</button>
+            <button onclick="putondisplay('8')">8</button>
+            <button onclick="putondisplay('9')">9</button>
+            <button onclick="putondisplay('0')">0</button>
+            <button onclick="putondisplay('.')">.</button>
+            <button onclick="ans('=')">=</button>
+            <button onclick="cleardisplay('c')"class="opp">c</button>
         </div>
 
-    </body>
+    </div>
+<script src="main.js"></script>
+</body>
+
 </html>
