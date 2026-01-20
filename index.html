@@ -1,43 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculator</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>conway's game of life</title>
 </head>
 
-<body>
-    
-    <div id="calculator">
-        <input id="display" readonly>
-
-        <div id="keys">
-            <button onclick="putondisplay('+')"class="opp">+</button>
-            <button onclick="putondisplay('-')"class="opp">-</button>
-            <button onclick="putondisplay('*')"class="opp">x</button>
-            <button onclick="putondisplay('/')"class="opp">/</button>
-            <button onclick="putondisplay('1')">1</button>
-            <button onclick="putondisplay('2')">2</button>
-            <button onclick="putondisplay('3')">3</button>
-            <button onclick="putondisplay('4')">4</button>
-            <button onclick="putondisplay('5')">5</button>
-            <button onclick="putondisplay('6')">6</button>
-            <button onclick="putondisplay('7')">7</button>
-            <button onclick="putondisplay('8')">8</button>
-            <button onclick="putondisplay('9')">9</button>
-            <button onclick="putondisplay('0')">0</button>
-            <button onclick="putondisplay('.')">.</button>
-            <button onclick="ans('=')">=</button>
-            <button onclick="cleardisplay('c')"class="opp">c</button>
-        </div>
-
-    </div>
-<script src="main.js"></script>
+<body style="display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(54, 47, 44);">
+    <script src="p5.js"></script><script src="main_gof.js"></script>
 </body>
 
 </html>
-
-
-
